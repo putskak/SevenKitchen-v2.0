@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Sevenkitchen</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="script/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rufina:wght@400;700&display=swap" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <!-- header-->
+        <div class="header">
+            <div class="shop-cart">
+                <h3 id="titleTxt">Sevenkitchen</h3> 
+                 </div>
+                 <div class="dropdown-content">
+                    <a class="notif"></a>
+                   <img id="img-cart" src="assets/cart.png" /> 
+                       <img id="silang" src="assets/silang.png"/> 
+                      <div id="list-cart">
+                         <div class="li-list">
+                            <img class="image" src=""/>
+                            <a class="dropdown-item"></a>
+                            <input type="number" value="1" min="1" max="200" class="total-item" placeholder="1">
+                         </div>
+                         <div class="li-list">
+                            <img src="" class="image">
+                            <a class="dropdown-item"></a>
+                            <input type="number" value="1" min="1" max="200" class="total-item" placeholder="1">
+                         </div>
+                         <div class="li-list">
+                            <img src="" class="image">
+                            <a class="dropdown-item"></a>
+                            <input type="number" value="1" min="1" max="200" class="total-item" placeholder="1">
+                         </div>
+                         <div class="li-list">
+                            <img src="" class="image">
+                            <a class="dropdown-item"></a>
+                            <input type="number" value="1" min="1" max="200" class="total-item" placeholder="1">
+                         </div>
+                         <div class="li-list">
+                            <img src="" class="image">
+                            <a class="dropdown-item"></a>
+                            <input type="number" value="1" min="1" max="200" class="total-item" placeholder="1">
+                         </div>
+                         <button type="submit" value="" class="btnSubmit" href="">Checkout</button>
+                      </div>
+                      
+                 </div>
+            <div class="hori-line">
+                <a id="line"></a>
+            </div>
+        </div>
+        <!-- con body primer-->
+        <div class="container">
+            <div class="slogan">
+                <h2>"Rasa yang beragam, untuk setiap hajat Anda"</h1>
+            </div>
+            <div class="row">
+                <!-- col 1-->
+                <div class="col">
+                 <a class="bg-img">
+                  <img id="imgFood1" src="assets/Nasi Bungkus .png"/>
+                 </a>
+                 <h2 id="txt-food1">Nasi Bungkus</h2>
+                 <h3 id="txt-desc">Harga dasar</h3>
+                 <h3 id="price-food1">Rp.8000</h3>
+                 <h4 id="note">*harga belum termasuk lauk</h4>
+                 <div class="dropdown-food1">
+                      <button class="btn-food1"> Pilih lauk Disini</button>
+                         <li id="list-item" class="list-item1">
+                           <a class="btn1" > Daging <span id="price1">Rp.8000 </span> </a>
+                           <a class="btn1" > Ayam <span id="price1">Rp.7000 </span> </a>
+                           <a class="btn1" > Telur <span id="price1">Rp.4000 </span> </a>
+                         </li>   
+                </div>
+                </div>
+                <!-- col 2-->
+                <div class="col">
+                    <a class="bg-img">
+                        <img id="imgFood2" src="assets/nasi kotak.png"/>
+                       </a>
+                       <h2 id="txt-food2">Nasi Kotak</h2>
+                       <h3 id="txt-desc">Harga dasar</h3>
+                       <h3 id="price-food2">Rp.13000</h3>
+                       <h4 id="note">*harga belum termasuk lauk</h4>
+                       <div class="dropdown-food2">
+                            <button class="btn-food2"> Pilih lauk Disini</button>
+                               <li id="list-item2">
+                                 <a class="btn2"> Daging <span id="price2">Rp.8000 </span> </a>
+                                 <a class="btn2"> Ayam  <span id="price2">Rp.7000 </span> </a>
+                                 <a class="btn2"> Telur <span id="price2">Rp.4000 </span> </a>
+                               </li>   
+                </div>
+                </div>
+                <!-- col 3-->
+                <div class="col">
+                    <a class="bg-img">
+                        <img id="imgFood3" src="assets/Nasi Geprek.png"/>
+                       </a>
+                       <h2 id="txt-food3">Nasi Ayam Geprek</h2>
+                       <h3 id="txt-desc">Harga dasar</h3>
+                       <h3 id="price-food3">Rp.4000</h3>
+                       <h4 id="note">*harga belum termasuk lauk</h4>
+                       <div class="dropdown-food3">
+                            <button class="btn-food3"> Pilih lauk Disini</button>
+                               <li id="list-item3">
+                                 <a class="btn3"> Ayam Small  <span id="#price3">Rp.7000 </span> </a>
+                                 <a class="btn3"> Ayam Large  <span id="#price3">Rp.9000 </span> </a>
+                                 <a class="btn3"> Ayam X-large  <span id="#price3">Rp.12000 </span> </a>
+                               </li>   
+                </div>
+                </div>
+                <!-- col 4-->
+                <div class="col">
+                    <a class="bg-img">
+                        <img id="imgFood4" src="assets/Snackbox.png"/>
+                       </a>
+                       <h2 id="txt-food4">Snackbox</h2>
+                       <h3 id="txt-desc">Harga dasar</h3>
+                       <h3 id="price-food2">Rp.2000</h3>
+                       <h4 id="note">*harga belum termasuk kue</h4>
+                       <div class="dropdown-food4">
+                            <button class="btn-food4"> Pilih kue Disini</button>
+                               <li id="list-item4">
+                                 <a class="btn4"> Lumpia <span id="price4">Rp.3500 </span> </a>
+                                 <a class="btn4"> Lumpur <span id="price4">Rp.3500 </span> </a>
+                                 <a class="btn4"> Roti coklat <span id="price4">Rp.4500 </span> </a>
+                                 <a class="btn4"> Soes buah <span id="price4">Rp.5000 </span> </a>
+                                 <a class="btn4"> Pastel <span id="price4">Rp.3500 </span> </a>
+                               </li>   
+                </div>
+                  </div>
+              </div>
+              <footer>
+                <div class="footer-text"><p>&copy; 2024 Made By Putskak</p></div>
+              </footer>
+
+        </div>
+        <script src="script/script-cart.js"></script>
+    </body>
+</html>
+
+
+
